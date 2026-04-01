@@ -2,7 +2,8 @@
   "name": "autoregencertificates",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "private": false,
+  "version": "0.0.1",
   "scripts": {
     "start": "bun run src/app/index.ts",
     "build": "bun run src/build/index.ts"
